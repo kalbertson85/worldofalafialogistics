@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#4F46E5"/>
+  
+  <!-- A Symbol -->
+  <path d="M100 50L130 150H115L105 115H95L85 150H70L100 50Z" fill="white"/>
+  <path d="M95 100H105L100 80L95 100Z" fill="white"/>
+</svg>

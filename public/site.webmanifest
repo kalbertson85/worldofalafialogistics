@@ -1,0 +1,14 @@
+{
+  "name": "World of Alafia Logistics",
+  "short_name": "Alafia Logistics",
+  "icons": [
+    {
+      "src": "/logo/AlafiaLogo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "theme_color": "#4F46E5",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

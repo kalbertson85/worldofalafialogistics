@@ -1,0 +1,49 @@
+/* HeroCarousel.css */
+.slick-dots {
+  bottom: 30px !important;
+}
+
+.slick-dots li {
+  margin: 0 4px;
+}
+
+.slick-dots li button:before {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #3b82f6;
+  opacity: 1;
+}
+
+/* Animation classes */
+.animate-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animation-delay-100 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.4s;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
